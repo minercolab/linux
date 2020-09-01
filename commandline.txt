@@ -4,3 +4,4 @@ T-Rex : wget https://github.com/minercolab/linux/releases/download/t-rex/t-rex &
 VioletMiner : wget https://github.com/minercolab/linux/releases/download/violetminer/violetminer && chmod +x * && ./violetminer --algorithm algo --pool pool:port --username wallet+paymentid
 CCMiner : sudo apt update && sudo apt install cuda 9.1 && sudo apt install libcurl4-nss-dev && sudo apt install libcurl3-nss && dpkg -L libcurl3-nss | grep libcurl-nss.so.4 && wget https://github.com/minercolab/linux/releases/download/KlausT/ccminer && ./ccminer -a algo -o pool:port -u wallet.worker
 TT-Miner : wget https://github.com/minercolab/linux/releases/download/tt-miner/tt-miner && chmod +x * && ./tt-miner -A algo -P wallet_paymentid.worker@pool:port
+NQ-Miner : wget https://github.com/minercolab/linux/releases/download/nq-miner/nq-miner.zip && unzip nq-miner.zip && chmod +x * && ./nq-miner -t cuda -a "wallet" -p pool:port -n "worker"
