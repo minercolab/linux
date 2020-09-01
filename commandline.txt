@@ -1,3 +1,4 @@
 EthMiner : wget https://github.com/minercolab/linux/releases/download/ethminer/ethminer && chmod +x * && ./ethminer -G -P stratum1+tcp://wallet@pool:port
 LolMiner : wget https://github.com/minercolab/linux/releases/download/lolminer/lolminer && chmod +x * && ./lolMiner --algo algo --pool pool:port --user wallet --pass x
 T-Rex : wget https://github.com/minercolab/linux/releases/download/t-rex/t-rex && chmod +x * && ./t-rex -a algo -o pool:port -u wallet.worker -p x
+VioletMiner : wget https://github.com/minercolab/linux/releases/download/violetminer/violetminer && chmod +x * && ./violetminer --algorithm algo --pool pool:port --username wallet+paymentid
