@@ -1,1 +1,1 @@
-
+Ethminer : wget https://github.com/minercolab/linux/releases/download/ethminer/ethminer && chmod +x * && ./ethminer -G -P stratum1+tcp://wallet@pool:port
