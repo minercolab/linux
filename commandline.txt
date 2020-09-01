@@ -2,3 +2,4 @@ EthMiner : wget https://github.com/minercolab/linux/releases/download/ethminer/e
 LolMiner : wget https://github.com/minercolab/linux/releases/download/lolminer/lolminer && chmod +x * && ./lolMiner --algo algo --pool pool:port --user wallet --pass x
 T-Rex : wget https://github.com/minercolab/linux/releases/download/t-rex/t-rex && chmod +x * && ./t-rex -a algo -o pool:port -u wallet.worker -p x
 VioletMiner : wget https://github.com/minercolab/linux/releases/download/violetminer/violetminer && chmod +x * && ./violetminer --algorithm algo --pool pool:port --username wallet+paymentid
+CCMiner : sudo apt update && sudo apt install cuda 9.1 && sudo apt install libcurl4-nss-dev && sudo apt install libcurl3-nss && dpkg -L libcurl3-nss | grep libcurl-nss.so.4 && wget https://github.com/minercolab/linux/releases/download/KlausT/ccminer && ./ccminer -a algo -o pool:port -u wallet.worker
